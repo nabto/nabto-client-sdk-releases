@@ -1,6 +1,11 @@
 # Changelog
 
-## [Unreleased]
+## [5.12.1] - 2023-08-03
+
+### Added
+ * A general connect timeout for connections has been added, the default connect
+   timeout is now 2 minutes, unless other things terminates a connect attempt
+   before the 2 minutes has passed.
 
 ## [5.12.0] - 2022-12-16
 

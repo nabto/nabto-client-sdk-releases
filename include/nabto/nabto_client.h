@@ -393,6 +393,12 @@ nabto_client_connection_stop(NabtoClientConnection* connection);
  * - DtlsHelloTimeout: unsigned integer in milliseconds, default 10000
  * ```
  *
+ * Set the timeout for a connect attempt. This is a upper limit on the time it takes for
+ * nabto_client_connection_connect to resolve.
+ * ```
+ * - ConnectTimeout: unsigned integner in milliseconds, default 120000
+ * ```
+ *
  * Control which connections features to use.
  *
  * Set local to enable/disable local connections
