@@ -1,5 +1,28 @@
 # Changelog
 
+## [5.15.1] - 2026-05-07
+
+### Fixed
+ * The build system now create proper release artifacts
+ * Mac shutdown issue
+
+## [5.15.0] - 2026-05-06
+
+### Fixed
+ * Upgraded dependencies
+
+### Added
+ * New connection option to ignore if a device is currently not attached and instead wait to connect to the device until it attaches.
+
+### Changed
+ * CI build system
+
+## [5.13.0] - 2023-11-21
+
+### Fixed
+ * A problem with large coap block requests and responses has been fixed.
+ * TCP Tunnelling resources could be leaked.
+
 ## [5.12.1] - 2023-08-03
 
 ### Added
