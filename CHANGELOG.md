@@ -1,5 +1,11 @@
 # Changelog
 
+## [5.15.3] - 2026-06-22
+
+### Changed
+ * The iOS xcframework has been rebuilt and renamed from `NabtoEdgeClientApiFW.xcframework` to `NabtoEdgeClientApi.xcframework`.
+ * Bumped the minimum supported Apple platform versions.
+
 ## [5.15.1] - 2026-05-07
 
 ### Fixed
