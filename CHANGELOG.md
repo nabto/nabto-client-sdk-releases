@@ -1,5 +1,10 @@
 # Changelog
 
+## [5.15.4] - 2026-06-26
+
+### Fixed
+ * Fixed an HTTP issue on Apple platforms.
+
 ## [5.15.3] - 2026-06-22
 
 ### Changed
